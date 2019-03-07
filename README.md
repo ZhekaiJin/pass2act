@@ -27,9 +27,9 @@ python3 -m spacy download en
 ```
 
 ## Run
-`
+```
 python3 demo.py
-`
+```
 Then follow the instruction as prompted.
 
 ## Assumptions
