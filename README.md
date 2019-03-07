@@ -1,8 +1,13 @@
 # PASS2ACT
 
-#### Author : Daniel Nohimovich & Zhekai Jin (Scott)
+#### Author : Zhekai Jin & Daniel Nohimovich
 #### Course : ECE 467 Natural Language Processing
 #### Instructor : Professor Carl Sable
+
+## Demo
+[![Watch pass2act in action](assets/demo.gif)](https://zhekaijin.github.io/videos/pass2act.mp4)
+*<br />Pass2act in acion (click on the image to view the full video)*
+
 
 ## Description
 A passive to active voice transformer based on an existing dependency parser. The data pipleline processes the parser result to detect whether a sentence is passive. Then, transformations are performed on the parse tree to change the sentence to active voice if there is an agent in the original sentence. The result is rendered both in parser-tree-form visualization and text format.
@@ -13,13 +18,18 @@ A passive to active voice transformer based on an existing dependency parser. Th
 * [pattern](https://www.clips.uantwerpen.be/pages/pattern-en)
 
 
-## Usage
+## Build
 ```
+git clone https://github.com/ZhekaiJin/pass2act.git
+cd pass2act/
 pip3 install -U spacy
 python3 -m spacy download en
-python3 demo.py
-
 ```
+
+## Run
+`
+python3 demo.py
+`
 Then follow the instruction as prompted.
 
 ## Assumptions
