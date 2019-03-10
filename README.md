@@ -1,5 +1,5 @@
 # PASS2ACT
-
+:star: Rated the best Natural Language Processing final project of the 2017 - 2018 academic year :star:
 #### Author : Zhekai Jin & Daniel Nohimovich
 #### Course : ECE 467 Natural Language Processing
 #### Instructor : Professor Carl Sable
